@@ -1,0 +1,9 @@
+# dependencies
+node_modules
+
+# public
+public
+
+# logspa
+npm-debug.log
+firebase-debug.log

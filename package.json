@@ -1,0 +1,15 @@
+{
+  "name": "nuxt-firebase-pwa",
+  "version": "1.0.0",
+  "description": "Next.js * Firebase = SPA * SSR * PWA * Serverless",
+  "author": "Shinnosuke Uwai <uydasan@gmail.com>",
+  "private": true,
+  "scripts": {
+    "setup": "npm run clean && npm run copyassets && npm run copystatic",
+    "clean": "mkdir -p public && rm -rf public/*",
+    "copyassets": "cp -R functions/nuxt/dist/ public/assets",
+    "copystatic": "cp -R src/static/* public",
+    "serve": "firebase serve --only hosting,functions",
+    "deploy": "firebase deploy"
+  }
+}
