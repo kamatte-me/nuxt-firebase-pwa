@@ -24,18 +24,6 @@ module.exports = {
   build: {
     publicPath: '/assets/',
     extractCSS: true,
-    babel: {
-      presets: [
-        'env',
-        'stage-0'
-      ],
-      plugins: [
-        ['transform-runtime', {
-          polyfill: true,
-          regenerator: true
-        }],
-      ],
-    },
     /*
     ** Run ESLint on save
     */
@@ -45,7 +33,10 @@ module.exports = {
           enforce: 'pre',
           test: /\.(js|vue)$/,
           loader: 'eslint-loader',
-          exclude: /(node_modules)/
+          exclude: /(node_modules)/,
+          options: {
+            configFile: '.eslintrc.js'
+          }
         })
       }
     }
