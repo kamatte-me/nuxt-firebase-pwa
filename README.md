@@ -16,8 +16,8 @@ Run the Nuxt.js application on Firebase.
 
 ### Libraries
 
-* [Node.js](https://github.com/nodejs/node) v6.14.0
-* [Nuxt.js](https://github.com/nuxt/nuxt.js) v1.0.0-rc11
+* [Node.js](https://github.com/nodejs/node) v8.11.1
+* [Nuxt.js](https://github.com/nuxt/nuxt.js) v1.x
 
 
 ## 👶Start
