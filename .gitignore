@@ -4,6 +4,9 @@ node_modules
 # public
 public
 
-# logspa
+# logs
 npm-debug.log
 firebase-debug.log
+
+# Firebase cache
+.firebase

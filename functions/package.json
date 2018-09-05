@@ -1,23 +1,15 @@
 {
   "name": "functions",
   "description": "Cloud Functions for Firebase",
+  "engines": {
+    "node": "8"
+  },
   "private": true,
   "dependencies": {
     "ajv": "^6.0.0",
-    "babel-plugin-transform-runtime": "^6.23.0",
-    "babel-preset-stage-0": "^6.24.1",
-    "babel-runtime": "^6.23.0",
-    "clone": "^2.1.1",
-    "debug": "^3.1.0",
-    "es6-promise": "^4.1.1",
-    "express": "^4.15.4",
-    "firebase-admin": "5.10.0",
-    "firebase-functions": "0.8.2",
-    "lodash": "^4.17.5",
-    "nuxt": "1.0.0-rc11",
-    "vue": "2.4.4",
-    "vue-meta": "^1.4.4",
-    "vue-router": "^3.0.1",
-    "vuex": "^3.0.1"
+    "express": "^4.16.0",
+    "firebase-admin": "latest",
+    "firebase-functions": "latest",
+    "nuxt": "^1.0.0"
   }
 }
