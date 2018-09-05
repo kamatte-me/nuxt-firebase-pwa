@@ -7,13 +7,9 @@
   "private": true,
   "dependencies": {
     "ajv": "^6.0.0",
-    "clone": "^2.1.1",
-    "debug": "^3.1.0",
-    "express": "^4.15.4",
+    "express": "^4.16.0",
     "firebase-admin": "latest",
     "firebase-functions": "latest",
-    "lodash": "^4.17.5",
-    "nuxt": "^1.0.0",
-    "vue-meta": "^1.4.4"
+    "nuxt": "^1.0.0"
   }
 }
