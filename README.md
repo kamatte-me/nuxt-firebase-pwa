@@ -1,7 +1,8 @@
 # nuxt-firebase-pwa
 
-[Nuxt.js](https://nuxtjs.org) * [Firebase](https://firebase.google.com) = SPA * SSR * PWA * Serverless
+> [Nuxt.js](https://nuxtjs.org) * [Firebase](https://firebase.google.com) = SPA * SSR * PWA * Serverless
 
+[DEMO](https://nuxt-firebase-c157f.firebaseapp.com)
 
 ## 👻Description
 
@@ -16,8 +17,8 @@ Run the Nuxt.js application on Firebase.
 
 ### Libraries
 
-* [Node.js](https://github.com/nodejs/node) v8.11.1
-* [Nuxt.js](https://github.com/nuxt/nuxt.js) v1.x
+* [Node.js](https://github.com/nodejs/node) v10.15.3
+* [Nuxt.js](https://github.com/nuxt/nuxt.js) v2.x
 
 
 ## 👶Start
