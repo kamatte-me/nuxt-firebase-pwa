@@ -12,7 +12,6 @@
   },
   "dependencies": {
     "@nuxtjs/pwa": "^2.6.0",
-    "lodash.template": "^4.5.0",
     "nuxt": "^2.9.2"
   },
   "devDependencies": {
